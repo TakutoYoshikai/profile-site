@@ -54,7 +54,7 @@ window.onscroll = function(e) {
     isEntered[1] = true;
 
   }
-  if (scrollHeight < 1300 && !isEntered[2]) {
+  if (scrollHeight < 1000 && !isEntered[2]) {
     timers[2] = setInterval(function() {
       addChar(2);
     }, 100);
