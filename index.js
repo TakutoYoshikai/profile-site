@@ -22,7 +22,11 @@ var images = [
 function addChar(index) {
   if (msgs[index] == "") {
     clearInterval(timers[index]);
-    document.getElementById("msg" + index).innerHTML += "<br><br><img src='" + images[index] + "' class='img'>";
+    if (index != 4) {
+      document.getElementById("msg" + index).innerHTML += "<br><br><img src='" + images[index] + "' class='img'>";
+    } else {
+      document.getElementById("msg" + index).innerHTML += "<br><br><a href='http://line.naver.jp/ti/p/Y-sPE4erWR'><img src='" + images[index] + "' class='img'></a>";
+    }
     return;
   }
   var ch = msgs[index][0];
