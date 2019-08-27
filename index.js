@@ -5,6 +5,7 @@ var isEntered = [
 var msgs = [
   "僕の名前は吉開拓人。大学生だよ",
   "趣味はカフェ巡り。行きつけのお店がたくさんあるよ！",
+  "アニメも大好き！",
   "こう見えてパソコンに強いです(キリッ",
   "よければ友達になってください！"
 ];
@@ -12,6 +13,7 @@ var msgs = [
 var images = [
   "./images/takuto.jpg",
   "./images/cafe.jpg",
+  "./images/anime.jpg",
   "./images/pc.jpg",
   "./images/qr.jpg",
 
@@ -32,6 +34,7 @@ var timers = [
   null,
   null,
   null,
+  null,
   null
 ];
 
@@ -42,23 +45,32 @@ window.onload = function() {
     isEntered[0] = true;
 }
 window.onscroll = function(e) {
-  var scrollHeight = document.documentElement.scrollHeight - document.documentElement.scrollTop - document.documentElement.clientHeight;
+  var scrollHeight = document.documentElement.scrollHeight - (document.body.scrollTop || document.documentElement.scrollTop)- document.documentElement.clientHeight;
   console.log(scrollHeight);
-  if (scrollHeight < 700 && !isEntered[1]) {
+  if (scrollHeight < 1500 && !isEntered[1]) {
     timers[1] = setInterval(function() {
       addChar(1);
     }, 100);
     isEntered[1] = true;
-  } else if (scrollHeight < 400 && !isEntered[2]) {
+
+  }
+  if (scrollHeight < 1300 && !isEntered[2]) {
     timers[2] = setInterval(function() {
       addChar(2);
     }, 100);
     isEntered[2] = true;
-  } else if (scrollHeight < 20 && !isEntered[3]) {
+  } 
+  if (scrollHeight < 500 && !isEntered[3]) {
     timers[3] = setInterval(function() {
       addChar(3);
     }, 100);
     isEntered[3] = true;
+  }
+  if (scrollHeight < 20 && !isEntered[4]) {
+    timers[4] = setInterval(function() {
+      addChar(4);
+    }, 100);
+    isEntered[4] = true;
 
   }
 }
