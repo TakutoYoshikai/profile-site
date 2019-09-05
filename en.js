@@ -50,7 +50,7 @@ var timers = [
 window.onload = function() {
     timers[0] = setInterval(function() {
       addChar(0);
-    }, 100);
+    }, 30);
     isEntered[0] = true;
 }
 window.onscroll = function(e) {
@@ -59,33 +59,33 @@ window.onscroll = function(e) {
   if (scrollHeight < 2000 && !isEntered[1]) {
     timers[1] = setInterval(function() {
       addChar(1);
-    }, 100);
+    }, 30);
     isEntered[1] = true;
 
   }
   if (scrollHeight < 1500 && !isEntered[2]) {
     timers[2] = setInterval(function() {
       addChar(2);
-    }, 100);
+    }, 30);
     isEntered[2] = true;
   } 
   if (scrollHeight < 1000 && !isEntered[3]) {
     timers[3] = setInterval(function() {
       addChar(3);
-    }, 100);
+    }, 30);
     isEntered[3] = true;
   }
   if (scrollHeight < 500 && !isEntered[4]) {
     timers[4] = setInterval(function() {
       addChar(4);
-    }, 100);
+    }, 30);
     isEntered[4] = true;
 
   } 
   if (scrollHeight < 90 && !isEntered[5]) {
     timers[5] = setInterval(function() {
       addChar(5);
-    }, 100);
+    }, 30);
     isEntered[5] = true;
   } 
 }
