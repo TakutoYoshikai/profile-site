@@ -3,19 +3,19 @@ var isEntered = [
 ];
 
 var msgs = [
-  "僕の名前は吉開拓人。大学生だよ",
-  "趣味はカフェ巡り。行きつけのお店がたくさんあるよ！",
-  "アニメも大好き！",
-  "こう見えてパソコンに強いです(キリッ",
+  "僕の名前は吉開拓人. 慶應の大学生です.",
+  "仕事はアプリクリエイター. 趣味でも色々作ってます.",
+  "アニメ・漫画は大好き！最近小説も読み始めました.",
+  "マイペースに生きています. 立ち止まって,頑張って,また立ち止まります.",
   "よければ友達になってください！",
   "Facebookはこちら！"
 ];
 
 var images = [
-  "./images/takuto.jpg",
-  "./images/cafe.jpg",
+  "./images/takuto1.jpg",
+  "./images/dengencafe.jpg",
   "./images/anime.jpg",
-  "./images/pc.jpg",
+  "./images/takuto2.jpg",
   "./images/qr.jpg",
   "./images/facebook.jpg"
 
