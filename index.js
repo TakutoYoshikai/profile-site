@@ -14,7 +14,7 @@ var msgs = [
 var images = [
   "./images/takuto1.jpg",
   "./images/dengencafe.jpg",
-  "./images/anime.jpg",
+  "./images/bungo.jpeg",
   "./images/takuto2.jpg",
   "./images/qr.jpg",
   "./images/facebook.jpg"
