@@ -3,19 +3,19 @@ var isEntered = [
 ];
 
 var msgs = [
-  "My name is Takuto Yoshikai. an university student.",
-  "My hobby is finding cafes. I have secret cafes.",
+  "My name is Takuto Yoshikai. an Keio University student.",
+  "I am an application creator. My hobby is programming too.",
   "I love anime!",
-  "I am good at using PC!",
+  "My life is slow pace. stopping, doing my best, and stopping",
   "Be my friend!",
   "Facebook: "
 ];
 
 var images = [
-  "./images/takuto.jpg",
-  "./images/cafe.jpg",
-  "./images/anime.jpg",
-  "./images/pc.jpg",
+  "./images/takuto3.jpg",
+  "./images/dengencafe.jpg",
+  "./images/bungo.jpeg",
+  "./images/takuto2.jpg",
   "./images/qr.jpg",
   "./images/facebook.jpg"
 
