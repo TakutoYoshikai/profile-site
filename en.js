@@ -5,7 +5,7 @@ var isEntered = [
 var msgs = [
   "My name is Takuto Yoshikai. an Keio University student.",
   "I am an application creator. My hobby is programming too.",
-  "I love anime!",
+  "I love animes and comics!",
   "My life is slow pace. stopping, doing my best, and stopping",
   "Be my friend!",
   "Facebook: "
