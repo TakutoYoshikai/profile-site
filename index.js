@@ -12,7 +12,7 @@ var msgs = [
 ];
 
 var images = [
-  "./images/takuto3.jpg",
+  "./images/takuto-meshi.png",
   "./images/dengencafe.jpg",
   "./images/bungo.jpeg",
   "./images/takuto2.jpg",
